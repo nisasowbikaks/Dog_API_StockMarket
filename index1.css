@@ -1,0 +1,101 @@
+body, h1, label, input, button, select, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #98b5d2;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    background-image: url('dog\ background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+label{
+    background-image:linear-gradient(rgb(182, 153, 92),rgba(192, 252, 255, 0.748),rgba(159, 149, 160, 0.249));
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: rgb(104, 68, 114);
+    background-image: linear-gradient(rgb(126, 186, 126),rgb(134, 134, 216),rgb(194, 119, 119));
+}
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+input, select {
+    padding: 8px;
+    margin: 10px 5px;
+    font-size: 16px;
+    border: 2px solid #cab188;
+    border-radius: 4px;
+    outline: none;
+}
+input:focus, select:focus {
+    border-color: #4f79a6;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #6ed9d7;
+    background-color: #4690ad;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4b6e9e;
+}   
+#dogContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.dog-card {
+    background-color: #75d3c6;
+    background-image: linear-gradient(rgb(240, 190, 198),rgb(194, 109, 109),rgb(205, 193, 122));
+    border: 1px solid #ff0000;
+    border-radius: 25%;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    opacity: 0.95;
+}
+
+.dog-card:hover {
+    transform: scale(1.05);
+}
+.dog-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.dog-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.dog-card button {
+    width: 65%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #82e5e7;
+    color: #000000;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.dog-card button:hover {
+    background-color: #1ba7d6;
+}

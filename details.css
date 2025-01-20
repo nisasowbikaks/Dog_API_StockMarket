@@ -1,0 +1,56 @@
+body, h1, div, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: skyblue;
+    background-image: linear-gradient(rgb(235, 179, 188),rgb(228, 228, 156));
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #0056b3;
+}
+#dogDetails {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #cf8c8c;
+    background-image: linear-gradient(rgb(230, 168, 178),rgb(188, 99, 99),rgb(121, 178, 200));
+    border: 5px solid #f4a1a1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+#dogDetails img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#dogDetails p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #0056b3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004080;
+}
